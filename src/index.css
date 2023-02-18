@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .mobileBg {
+    width: 100vw;
+    height: 200px;
+    position: absolute;
+  }
+  
+  .titleMode {
+    position: relative;
+    display: flex;
+    padding-top: 48px;
+  }
+
+  .main {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    
+  }
+
+  .main2 h1 {
+    font-family: Josefin Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: -0.1666666716337204px;
+  }
+
+  .circle {
+    border:1px solid white; 
+    border-radius: 25px;
+    width:20px;
+    height:20px; 
+    margin-left:20px;
+    margin-right:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25273D;
+  }
+
+  
+
+  
+  .inputDisplay {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  .circleAtodo{
+    display: flex;
+    align-items: center;
+  }
+
+  input {
+    outline: none;
+    border: none;
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:327px; 
+    height:52px;
+  }
+
+  .counterClear {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5B5E7E;
+    margin-bottom: 7px;
+    width:327px; 
+    height:52px;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:327px; 
+    height:52px;
+    color: #5B5E7E;
+
+  }
+
+
+
+  
+
+}
